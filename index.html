@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Maker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+    <input type="text" placeholder="Enter your name" id="name">
+    <input type="text" placeholder="Enter your father name" id="fname">
+    <input type="text" maxlength="13" placeholder="Enter your cnic" id="cnic">
+    <select name="" id="course">
+        <option value="Web Development">Web Development</option>
+    </select>
+    <input type="file" id="fileInput">
+    <div id="content">
+        <img id="image" src="./card (2).png" width="200" />
+        <img id="image1" src="./card (1).png" width="200" />
+    </div>
+    <button id="generate-pdf">Generate PDF</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
